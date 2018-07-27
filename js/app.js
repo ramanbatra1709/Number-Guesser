@@ -1,4 +1,4 @@
-let min = 1, max = 10, winningNum = 5, guessesLeft = 3;
+let min = 1, max = 10, winningNum = Math.floor(Math.random()*(max - min + 1) + min), guessesLeft = 3;
 
 const game = document.querySelector('#game');
 const minNum = document.querySelector('.min-num');
